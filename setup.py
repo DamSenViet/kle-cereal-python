@@ -13,7 +13,10 @@ st.setup(
     packages=st.find_packages(exclude=["tests"]),
     install_requires=[],
     extras_require={
-        "test": ["matplotlib>=3.1.2"],
+        "test": [
+            "matplotlib>=3.1.2",
+            "pytest>=6.1.2",
+        ],
         "docs": [
             "sphinx>=3.3.1",
             "pydata-sphinx-theme>=0.4.1",
