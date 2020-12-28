@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>damsenviet.kle.utils module &#8212; damsenviet.kle  documentation</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="damsenviet.kle.metadata module" href="damsenviet.kle.metadata.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
+<div class="container-xl">
+
+    <a class="navbar-brand" href="../index.html">
+    
+      <p class="title">damsenviet.kle</p>
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item active">
+            <a class="nav-link" href="damsenviet.kle.html">API</a>
+        </li>
+        
+        
+      </ul>
+
+
+      
+
+      <ul class="navbar-nav">
+        
+        
+      </ul>
+    </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+          <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+
+    <div class="bd-toc-item active">
+    
+  
+    <ul class="nav bd-sidenav">
+        
+        
+          
+        
+        
+      </ul>
+  
+  </nav>
+          </div>
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+    </ul>
+</nav>
+
+
+              
+          </div>
+          
+
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="module-damsenviet.kle.utils">
+<span id="damsenviet-kle-utils-module"></span><h1>damsenviet.kle.utils module<a class="headerlink" href="#module-damsenviet.kle.utils" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="damsenviet.kle.utils.undo_align">
+<code class="sig-name descname">undo_align</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">items</span></em>, <em class="sig-param"><span class="n">align</span></em>, <em class="sig-param"><span class="n">default_val</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.undo_align" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes the alignment on the aligned items.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>items</strong> (<em>List</em>) – The items to be reordered.</p></li>
+<li><p><strong>align</strong> (<em>int</em>) – The alignment option. 0-7</p></li>
+<li><p><strong>default_val</strong> (<em>Any</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The reordered items.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="damsenviet.kle.utils.compare_text_sizes">
+<code class="sig-name descname">compare_text_sizes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text_sizes</span></em>, <em class="sig-param"><span class="n">ordered_text_sizes</span></em>, <em class="sig-param"><span class="n">ordered_labels</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.compare_text_sizes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determines whether text sizes and ordered version are equal.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text_sizes</strong> (<em>Union</em><em>[</em><em>int</em><em>, </em><em>List</em><em>[</em><em>int</em><em>]</em><em>]</em>) – the text sizes to compare</p></li>
+<li><p><strong>ordered_text_sizes</strong> (<em>List</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>, </em><em>None</em><em>]</em><em>]</em>) – the ordered text sizes</p></li>
+<li><p><strong>ordered_labels</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – the ordered labels</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>whether text sizes are equal</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="damsenviet.kle.utils.playback_metadata_changes">
+<code class="sig-name descname">playback_metadata_changes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata</span></em>, <em class="sig-param"><span class="n">metadata_changes</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.playback_metadata_changes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Playback the changes into the metadata.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>metadata</strong> (<a class="reference internal" href="damsenviet.kle.html#damsenviet.kle.Metadata" title="damsenviet.kle.Metadata"><em>Metadata</em></a>) – the metadata</p></li>
+<li><p><strong>metadata_changes</strong> (<em>Dict</em>) – the changes</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the metadata</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="damsenviet.kle.html#damsenviet.kle.Metadata" title="damsenviet.kle.Metadata">Metadata</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="damsenviet.kle.utils.playback_key_changes">
+<code class="sig-name descname">playback_key_changes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">key_changes</span></em>, <em class="sig-param"><span class="n">align</span></em>, <em class="sig-param"><span class="n">cluster_rotation_x</span></em>, <em class="sig-param"><span class="n">cluster_rotation_y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.playback_key_changes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Playback the changes into the key.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> (<a class="reference internal" href="damsenviet.kle.html#damsenviet.kle.Key" title="damsenviet.kle.Key"><em>Key</em></a>) – the recording key</p></li>
+<li><p><strong>key_changes</strong> (<em>Dict</em>) – the changes</p></li>
+<li><p><strong>align</strong> (<em>int</em>) – the tracked text alignment</p></li>
+<li><p><strong>cluster_rotation_x</strong> (<em>Decimal</em>) – the tracked rotation origin x</p></li>
+<li><p><strong>cluster_rotation_y</strong> (<em>Decimal</em>) – the tracked rotation origin y</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>align, cluster_rotation_x, cluster_rotation_y</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Tuple[int, Decimal, Decimal]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="damsenviet.kle.utils.key_sort_criteria">
+<code class="sig-name descname">key_sort_criteria</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.key_sort_criteria" title="Permalink to this definition">¶</a></dt>
+<dd><p>A helper to sort keys into the KLE order before serialization.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>key</strong> (<a class="reference internal" href="damsenviet.kle.html#damsenviet.kle.Key" title="damsenviet.kle.Key"><em>Key</em></a>) – the key to compare</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the multidimensional ordering for comparison</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Tuple[ Decimal, Decimal, Decimal, Decimal, Decimal, ]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="damsenviet.kle.utils.record_change">
+<code class="sig-name descname">record_change</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">changes</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">val</span></em>, <em class="sig-param"><span class="n">default_val</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.record_change" title="Permalink to this definition">¶</a></dt>
+<dd><p>Registers the change if value is not equal to default.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>changes</strong> (<em>OrderedDict</em>) – the existing changes</p></li>
+<li><p><strong>name</strong> (<em>str</em>) – the property name</p></li>
+<li><p><strong>val</strong> (<em>T</em>) – the value</p></li>
+<li><p><strong>default_val</strong> (<em>T</em>) – the value to compare against</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the value</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>T</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="damsenviet.kle.utils.reduced_text_sizes">
+<code class="sig-name descname">reduced_text_sizes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text_sizes</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.reduced_text_sizes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Turns Nones into 0 and removes trailing zeroes from the text sizes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>arr</strong> (<em>List</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – [description]</p></li>
+<li><p><strong>text_sizes</strong> (<em>List</em><em>[</em><em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em><em>]</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>[description]</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>[type]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="damsenviet.kle.utils.reorder_labels">
+<code class="sig-name descname">reorder_labels</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">current</span></em><span class="sig-paren">)</span><a class="headerlink" href="#damsenviet.kle.utils.reorder_labels" title="Permalink to this definition">¶</a></dt>
+<dd><p>More space efficient text labels, text colors, text sizes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> (<a class="reference internal" href="damsenviet.kle.html#damsenviet.kle.Key" title="damsenviet.kle.Key"><em>Key</em></a>) – the key to compute the reorder of</p></li>
+<li><p><strong>current</strong> (<a class="reference internal" href="damsenviet.kle.html#damsenviet.kle.Key" title="damsenviet.kle.Key"><em>Key</em></a>) – the current key to compare to</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>a return dict with reordered version of props stored</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="damsenviet.kle.metadata.html" title="previous page">damsenviet.kle.metadata module</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020, damsenviet.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.4.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
